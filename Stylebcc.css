@@ -1,0 +1,247 @@
+body {
+    margin:0;
+    font-family:Arial,Helvetica,freesans, sans-serif;
+ }
+ #Navbar {
+     background-color: #ffffff;
+     height: 40px;
+     width: 100%;
+     color:black;
+     border-bottom:2px solid rgb(92, 89, 89);
+ }
+ .Top1 {
+     width:1250px;
+     margin:0 auto;
+ }
+ #ForLogo {
+     padding-top:7px;
+     float:left;
+     height:33px;
+     border-right:2px solid gray;
+     padding-right:20px;
+ }
+ #Forsignin {
+     color: black;
+     font-weight:bold;
+     font-size:1em;
+     padding:5px 100px 2px 20px;
+     float:left;
+     border-right:2px solid gray;
+     height:33px;
+ }
+     #Forsignin img {
+         position:relative;
+         top:3px;
+     }
+ #Bmenu {
+     float:left;
+ }
+     #Bmenu ul {
+         margin:0;
+         padding:0;
+     }
+     #Bmenu li {
+         list-style:none;
+         font-weight:bold;
+         font-size:1em;
+         float:left;
+         display:inline-flex;
+         padding:10px 15px 12px 15px;
+         border-right:2px solid gray;
+     }
+     #Bmenu ul li a{
+        text-decoration: none;
+        color:black;
+      }
+    #Secondnav ul li a,.copyright a{
+        text-decoration: none;
+        color:white;
+    
+    }
+    #Bmenu ul li a::after,#Secondnav ul li a::after{
+        content: '';
+        width:0%;
+        height: 3px;
+        background: #6a6ae2;
+        display:block;
+        margin:auto;
+      }
+    #Bmenu ul li a:hover::after,#Secondnav ul li a:hover::after{
+        width:100%;
+        transition: 0s;
+      }
+ #Forsearch {
+     float:left;
+     padding-top:9px;
+     padding-left:10px;
+ }
+     #Forsearch input {
+         height:20px;
+         width:200px;
+         border:none;
+         background-color:#e4e4e4;
+         font-size:0.9em;
+         padding-left:5px;
+         background-image:url("image/Pic4.png");
+         background-repeat:no-repeat;
+         background-position:right center;
+     }
+ ::placeholder {
+     color:black;
+     font-weight:bold;
+ }
+ .break {
+     clear:both;
+ }
+ #newsbar {
+     background-color:#f51313;
+     height:93px;
+     width:100%;
+     color:white;
+ }
+     #newsbar p {
+         margin:0;
+         padding:0;
+         color:white;
+         padding-top:9px;
+         padding-left:1px;
+     }
+ #newsheader {
+     font-size:3em;
+ }
+ #uk {
+     font-size:0.3em;
+     padding-left:2px;
+ }
+ /*inside nav*/
+ 
+.SecondTab{
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    font-size: 13px;
+}
+.MORE{
+    font-size: 30px;
+    position:relative;
+    bottom: 20px;
+}
+
+ #Secondnav ul{
+     margin:0;
+     padding:11px 0 0 5px;
+ }
+ #Secondnav li {
+     list-style:none;
+     font-size:0.8em;
+     padding:0 15px 0 15px;
+     color:white;
+     float:left;
+     border-right:1px solid #cccccc;
+ }
+ /* main content*/
+ .adver a{
+     padding-left: 1150px;
+     text-decoration: none;
+     color:black;
+     font-weight: bold;
+
+ }
+ .adver img{
+     padding-left:290px;
+ }
+ /*advertise*/
+ #page-container{
+    padding-left: 150px;
+    height:355px;
+ }
+ .main-article{
+     display:grid;
+     grid-template-columns:220px 400px 200px 400px;
+     justify-items: start;
+     grid-gap: 1em;
+ }
+  #main-article-image{
+     height:280px;
+     width:400px;
+ }
+ .Limage a{
+     padding-left: 300px;
+ }
+ .main-article a{
+     text-decoration: none;
+     color: black;
+ }
+ .nested,.image{
+     display: grid;
+     grid-template-rows:90% 10%;
+ }
+ .forthebutton{
+     display:grid;
+     grid-template-columns: 50% 50%;
+ }
+ .date{
+     border-right:2px solid gray;
+ }
+ .nested1{
+     display: grid;
+     grid-template-rows:20 70%;  
+ }
+ .Inner img{
+     height: 100px;
+     width: 200px;
+ }
+ .main-article p{
+     font-size:1em;
+ }
+ /*for bottom nav*/
+.Bottom1{
+    height:248px;
+    background-color:rgb(112, 109, 109);
+    padding-left: 150px;
+  
+
+}
+.Bottom1 p{
+    font-weight: bold;
+    font-size: 1.5em;
+    color:white;
+    padding-top:8px;
+}
+.Bottom2{
+    display: flex;
+    flex-direction:row;
+    padding-top: 20px;
+}
+.Bot{
+    display: flex;
+    flex-direction: column;
+    border-right:2px solid gray;
+    align-items: flex-start;
+    border-bottom:2px solid gray;
+}
+.Bot a{
+    font-weight: bold;
+    padding-right:150px;
+    padding-left: 9px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+   
+}
+#Ads{
+    padding-top: 20px;
+}
+#Ads a{
+    text-decoration:none;
+    color: white;
+    font-size: 13px;
+    padding-right: 20px;
+}
+.copyright{
+    padding-top: 30px;
+    color: white;
+    font-size: 15px;
+}
